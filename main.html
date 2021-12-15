@@ -158,7 +158,7 @@
         $(document).ready(function() {
             $.ajax({
                 type: 'GET',
-                url: 'http://127.0.0.1:5000/',
+                url: 'https://snsanalyzerbackend.herokuapp.com/',
                 success: function(output) {
                     $('#search').autocomplete({
                         source: output
@@ -182,7 +182,7 @@
         {
             $.ajax({
                 type: 'POST',
-                url: 'http://127.0.0.1:5000/',
+                url: 'https://snsanalyzerbackend.herokuapp.com/',
                 data: {
                     keyword: keyword
                 },
